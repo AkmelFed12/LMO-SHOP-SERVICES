@@ -1,3 +1,5 @@
+const { store } = require("./store");
+
 module.exports = (req, res) => {
   if (req.method !== "POST") {
     return res.status(405).json({ error: "Method not allowed" });
@@ -5,14 +7,36 @@ module.exports = (req, res) => {
 
   const { customer, items, total } = req.body || {};
 
-  if (!customer || !customer.fullName || !customer.email || !Array.isArray(items) || !items.length) {
-    return res.status(400).json({ error: "Invalid order payload" });
+  if (
+    !customer ||
+    !customer.fullName ||
+    !customer.email ||
+    !customer.contact ||
+    !Array.isArray(items) ||
+    !items.length
+  ) {
+    return res.status(400).json({ error: "Payload de commande invalide" });
   }
 
-  return res.status(201).json({
-    message: "Commande enregistree avec succes (mode demo).",
+  const order = {
     orderId: `ORD-${Date.now()}`,
+    customerId: customer.customerId || "INVITE",
+    customerName: customer.fullName,
+    email: customer.email,
+    contact: customer.contact,
+    address: customer.address || "Non renseignee",
+    items,
     total,
-    createdAt: new Date().toISOString()
+    createdAt: new Date().toISOString(),
+    status: "Nouvelle"
+  };
+
+  store.orders.push(order);
+
+  return res.status(201).json({
+    message: "Commande enregistree avec succes.",
+    orderId: order.orderId,
+    total: order.total,
+    createdAt: order.createdAt
   });
 };

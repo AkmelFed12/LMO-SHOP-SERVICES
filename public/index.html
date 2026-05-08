@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>LMO SHOP SERVICES | E-commerce Portfolio</title>
-  <meta name="description" content="LMO SHOP SERVICES: demo e-commerce full stack inspiree des meilleures pratiques marketplace." />
+  <title>LMO SHOP SERVICES | Leader E-commerce CI</title>
+  <meta name="description" content="LMO SHOP SERVICES - Marketplace moderne en FCFA avec catalogue massif, checkout rapide et suivi admin en direct." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet" />
@@ -15,21 +15,19 @@
     <div class="container topbar-inner">
       <div class="brand-wrap">
         <img src="/logo.png" alt="Logo LMO SHOP SERVICES" class="logo" />
-        <div>
-          <p class="eyebrow">Boutique en ligne professionnelle</p>
-          <h1>LMO SHOP SERVICES</h1>
-        </div>
+        <h1>LMO SHOP SERVICES</h1>
       </div>
-      <div class="trust-items">
-        <span class="trust-pill"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l7 3v6c0 5-3.5 9-7 11-3.5-2-7-6-7-11V5l7-3zm0 3.2L7 7v4c0 3.7 2.4 6.8 5 8.5 2.6-1.7 5-4.8 5-8.5V7l-5-1.8z"/></svg>Paiement securise</span>
-        <span class="trust-pill"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h13v9H3V6zm13 3h2.5l2.5 2.5V15H16V9zm-9 8a2 2 0 110 4 2 2 0 010-4zm10 0a2 2 0 110 4 2 2 0 010-4z"/></svg>Livraison rapide</span>
-      </div>
+      <nav class="header-actions">
+        <a class="link-btn" href="/register.html">Inscription</a>
+        <a class="link-btn" href="/login.html">Connexion</a>
+        <a class="link-btn" href="/admin.html">Admin</a>
+      </nav>
     </div>
   </header>
 
   <section class="hero container">
-    <h2>Produits les plus vendus en Cote d'Ivoire</h2>
-    <p>Catalogue inspiré des standards marketplace type Jumia: recherche rapide, categories, tri intelligent et checkout fluide.</p>
+    <h2>Le meilleur du shopping en Cote d'Ivoire, au meilleur prix</h2>
+    <p>Decouvrez des milliers d'articles verifies en FCFA: High-Tech, Maison, Beaute, Mode, Epicerie et plus encore, avec une experience d'achat rapide et fiable.</p>
   </section>
 
   <main class="container layout">
@@ -37,7 +35,7 @@
       <div class="toolbar">
         <div class="field icon-field">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 2a8 8 0 105.3 14l4.4 4.4 1.4-1.4-4.4-4.4A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z"/></svg>
-          <input id="search" placeholder="Rechercher un produit" />
+          <input id="search" placeholder="Rechercher parmi plus de 1000 articles" />
         </div>
         <div class="field"><select id="category"></select></div>
         <div class="field">
@@ -55,8 +53,8 @@
 
     <aside class="cart card-shell">
       <div class="cart-header">
-        <h3>Panier</h3>
-        <span class="mini">Session locale</span>
+        <h3>Commande Express</h3>
+        <span class="mini" id="sessionLabel">Client invite</span>
       </div>
       <div id="cartItems" class="cart-items"></div>
       <div class="total-row"><span>Total</span><strong id="cartTotal">0 FCFA</strong></div>
@@ -64,8 +62,9 @@
       <form id="checkoutForm" class="checkout-form">
         <input name="fullName" placeholder="Nom complet" required />
         <input name="email" type="email" placeholder="Email" required />
+        <input name="contact" placeholder="Contact (ex: +2250700000000)" required />
         <textarea name="address" rows="3" placeholder="Adresse de livraison" required></textarea>
-        <button class="btn-primary" type="submit">Valider la commande</button>
+        <button class="btn-primary" type="submit">Confirmer la commande</button>
       </form>
       <div id="feedback"></div>
     </aside>

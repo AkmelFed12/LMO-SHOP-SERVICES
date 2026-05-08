@@ -8,12 +8,12 @@ module.exports = (req, res) => {
 
   const { q = "", category = "all", sort = "featured" } = req.query;
 
-  let filtered = products.filter((p) =>
-    p.name.toLowerCase().includes(String(q).toLowerCase())
+  let filtered = products.filter((product) =>
+    product.name.toLowerCase().includes(String(q).toLowerCase())
   );
 
   if (category !== "all") {
-    filtered = filtered.filter((p) => p.category.toLowerCase() === String(category).toLowerCase());
+    filtered = filtered.filter((product) => product.category === String(category));
   }
 
   if (sort === "priceAsc") filtered.sort((a, b) => a.price - b.price);
@@ -23,6 +23,6 @@ module.exports = (req, res) => {
   res.status(200).json({
     count: filtered.length,
     products: filtered,
-    categories: ["all", ...new Set(products.map((p) => p.category.toLowerCase()))]
+    categories: ["all", ...new Set(products.map((product) => product.category))]
   });
 };
