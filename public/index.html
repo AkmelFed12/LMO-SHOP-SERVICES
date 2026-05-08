@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Studio Commerce Demo | Portfolio</title>
+  <meta name="description" content="Boutique e-commerce full stack fictive pour portfolio: catalogue, panier et checkout." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="hero container">
+    <span class="pill">Projet portfolio • E-commerce Full Stack</span>
+    <h1>Studio Commerce Demo</h1>
+    <p>Catalogue intelligent, panier persistant et tunnel de commande fictif avec API serverless. Concu pour demontrer ton niveau produit et technique.</p>
+  </header>
+
+  <main class="container grid">
+    <section class="panel">
+      <div class="toolbar">
+        <input id="search" placeholder="Rechercher un produit..." />
+        <select id="category"></select>
+        <select id="sort">
+          <option value="featured">Tri: recommande</option>
+          <option value="priceAsc">Prix croissant</option>
+          <option value="priceDesc">Prix decroissant</option>
+          <option value="rating">Meilleure note</option>
+        </select>
+      </div>
+      <div id="stats" class="stat"></div>
+      <div id="products" class="products"></div>
+    </section>
+
+    <aside class="panel cart">
+      <h2>Panier</h2>
+      <p class="muted">Sauvegarde locale active pour simuler une vraie experience.</p>
+      <div id="cartItems" class="cart-items"></div>
+      <div class="row"><strong>Total</strong><strong id="cartTotal">0.00 EUR</strong></div>
+
+      <form id="checkoutForm" class="checkout-form">
+        <input name="fullName" placeholder="Nom complet" required />
+        <input name="email" type="email" placeholder="Email" required />
+        <textarea name="address" rows="3" placeholder="Adresse de livraison" required></textarea>
+        <button class="btn-main" type="submit">Commander (demo)</button>
+      </form>
+      <div id="feedback"></div>
+    </aside>
+  </main>
+
+  <footer>
+    <div class="container row" style="align-items:flex-start;">
+      <div>
+        <strong>Studio Commerce Demo</strong>
+        <div class="muted">Architecture front + API serverless prete pour Vercel.</div>
+      </div>
+      <div class="signature">Signature: Developpe par DELL</div>
+    </div>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>

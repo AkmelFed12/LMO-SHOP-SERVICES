@@ -1,0 +1,68 @@
+[
+  {
+    "id": "plante-monstera",
+    "name": "Monstera Deliciosa",
+    "category": "Plantes",
+    "price": 39.9,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1463320898484-cdee8141c787?auto=format&fit=crop&w=900&q=80",
+    "description": "Plante d'interieur iconique, facile a entretenir et parfaite pour un salon moderne.",
+    "stock": 18,
+    "badge": "Best Seller"
+  },
+  {
+    "id": "cafe-ethiopie",
+    "name": "Cafe Ethiopie Grains",
+    "category": "Cafe",
+    "price": 15.5,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80",
+    "description": "Grains specialite notes florales, torrefaction medium, profil elegant.",
+    "stock": 42,
+    "badge": "Nouveau"
+  },
+  {
+    "id": "plante-ficus",
+    "name": "Ficus Lyrata",
+    "category": "Plantes",
+    "price": 54,
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=900&q=80",
+    "description": "Grande plante graphique pour une deco premium et chaleureuse.",
+    "stock": 9,
+    "badge": "Edition Studio"
+  },
+  {
+    "id": "cafe-colombie",
+    "name": "Cafe Colombie Moulu",
+    "category": "Cafe",
+    "price": 12.9,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?auto=format&fit=crop&w=900&q=80",
+    "description": "Moulu filtre, gourmand et equilibre pour petit-dejeuner.",
+    "stock": 36,
+    "badge": "Top Note"
+  },
+  {
+    "id": "accessoire-pot",
+    "name": "Pot Ceramique Minimal",
+    "category": "Accessoires",
+    "price": 24,
+    "rating": 4.5,
+    "image": "https://images.unsplash.com/photo-1614594975525-e45190c55d0b?auto=format&fit=crop&w=900&q=80",
+    "description": "Pot premium finition mate, ideal pour valoriser tes plantes.",
+    "stock": 27,
+    "badge": "Design"
+  },
+  {
+    "id": "cafe-pack",
+    "name": "Starter Pack Barista",
+    "category": "Bundles",
+    "price": 44.9,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1511920170033-f8396924c348?auto=format&fit=crop&w=900&q=80",
+    "description": "Pack decouverte avec 3 origines et guide d'extraction.",
+    "stock": 14,
+    "badge": "Coup de coeur"
+  }
+]
