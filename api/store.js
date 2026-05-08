@@ -5,6 +5,7 @@ const crypto = require("crypto");
 const DB_PATH = path.join(process.cwd(), "data", "db.json");
 const TOKEN_SECRET = process.env.TOKEN_SECRET || "LMO_SUPER_SECRET_CHANGE_ME";
 const TOKEN_TTL_MS = 1000 * 60 * 60 * 12;
+let memoryDb = null;
 
 function hashPassword(password, salt = crypto.randomBytes(16).toString("hex")) {
   const hash = crypto.scryptSync(password, salt, 64).toString("hex");
@@ -53,10 +54,14 @@ function createDefaultDb() {
 }
 
 function loadDb() {
+  if (memoryDb) return memoryDb;
   if (!fs.existsSync(DB_PATH)) {
     const seed = createDefaultDb();
-    fs.writeFileSync(DB_PATH, JSON.stringify(seed, null, 2));
-    return seed;
+    memoryDb = seed;
+    try {
+      fs.writeFileSync(DB_PATH, JSON.stringify(seed, null, 2));
+    } catch {}
+    return memoryDb;
   }
   const db = JSON.parse(fs.readFileSync(DB_PATH, "utf8"));
   let changed = false;
@@ -80,10 +85,16 @@ function loadDb() {
   }
 
   if (changed) saveDb(db);
-  return db;
+  memoryDb = db;
+  return memoryDb;
 }
 
-function saveDb(db) { fs.writeFileSync(DB_PATH, JSON.stringify(db, null, 2)); }
+function saveDb(db) {
+  memoryDb = db;
+  try {
+    fs.writeFileSync(DB_PATH, JSON.stringify(db, null, 2));
+  } catch {}
+}
 
 function addAudit(db, actorId, action, details = {}) {
   db.auditLogs.push({ id: `AUD-${Date.now()}-${Math.floor(Math.random() * 1000)}`, actorId, action, details, createdAt: new Date().toISOString() });
