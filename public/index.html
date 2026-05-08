@@ -2,60 +2,79 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Studio Commerce Demo | Portfolio</title>
-  <meta name="description" content="Boutique e-commerce full stack fictive pour portfolio: catalogue, panier et checkout." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LMO SHOP SERVICES | E-commerce Portfolio</title>
+  <meta name="description" content="LMO SHOP SERVICES: demo e-commerce full stack inspiree des meilleures pratiques marketplace." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="/styles.css" />
 </head>
 <body>
-  <header class="hero container">
-    <span class="pill">Projet portfolio • E-commerce Full Stack</span>
-    <h1>Studio Commerce Demo</h1>
-    <p>Catalogue intelligent, panier persistant et tunnel de commande fictif avec API serverless. Concu pour demontrer ton niveau produit et technique.</p>
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand-wrap">
+        <img src="/logo.png" alt="Logo LMO SHOP SERVICES" class="logo" />
+        <div>
+          <p class="eyebrow">Boutique en ligne professionnelle</p>
+          <h1>LMO SHOP SERVICES</h1>
+        </div>
+      </div>
+      <div class="trust-items">
+        <span class="trust-pill"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l7 3v6c0 5-3.5 9-7 11-3.5-2-7-6-7-11V5l7-3zm0 3.2L7 7v4c0 3.7 2.4 6.8 5 8.5 2.6-1.7 5-4.8 5-8.5V7l-5-1.8z"/></svg>Paiement securise</span>
+        <span class="trust-pill"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h13v9H3V6zm13 3h2.5l2.5 2.5V15H16V9zm-9 8a2 2 0 110 4 2 2 0 010-4zm10 0a2 2 0 110 4 2 2 0 010-4z"/></svg>Livraison rapide</span>
+      </div>
+    </div>
   </header>
 
-  <main class="container grid">
-    <section class="panel">
+  <section class="hero container">
+    <h2>Produits les plus vendus en Cote d'Ivoire</h2>
+    <p>Catalogue inspiré des standards marketplace type Jumia: recherche rapide, categories, tri intelligent et checkout fluide.</p>
+  </section>
+
+  <main class="container layout">
+    <section class="catalog card-shell">
       <div class="toolbar">
-        <input id="search" placeholder="Rechercher un produit..." />
-        <select id="category"></select>
-        <select id="sort">
-          <option value="featured">Tri: recommande</option>
-          <option value="priceAsc">Prix croissant</option>
-          <option value="priceDesc">Prix decroissant</option>
-          <option value="rating">Meilleure note</option>
-        </select>
+        <div class="field icon-field">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 2a8 8 0 105.3 14l4.4 4.4 1.4-1.4-4.4-4.4A8 8 0 0010 2zm0 2a6 6 0 110 12 6 6 0 010-12z"/></svg>
+          <input id="search" placeholder="Rechercher un produit" />
+        </div>
+        <div class="field"><select id="category"></select></div>
+        <div class="field">
+          <select id="sort">
+            <option value="featured">Tri: recommande</option>
+            <option value="priceAsc">Prix croissant</option>
+            <option value="priceDesc">Prix decroissant</option>
+            <option value="rating">Meilleure note</option>
+          </select>
+        </div>
       </div>
-      <div id="stats" class="stat"></div>
-      <div id="products" class="products"></div>
+      <div id="stats" class="stats"></div>
+      <div id="products" class="products-grid"></div>
     </section>
 
-    <aside class="panel cart">
-      <h2>Panier</h2>
-      <p class="muted">Sauvegarde locale active pour simuler une vraie experience.</p>
+    <aside class="cart card-shell">
+      <div class="cart-header">
+        <h3>Panier</h3>
+        <span class="mini">Session locale</span>
+      </div>
       <div id="cartItems" class="cart-items"></div>
-      <div class="row"><strong>Total</strong><strong id="cartTotal">0.00 EUR</strong></div>
+      <div class="total-row"><span>Total</span><strong id="cartTotal">0 FCFA</strong></div>
 
       <form id="checkoutForm" class="checkout-form">
         <input name="fullName" placeholder="Nom complet" required />
         <input name="email" type="email" placeholder="Email" required />
         <textarea name="address" rows="3" placeholder="Adresse de livraison" required></textarea>
-        <button class="btn-main" type="submit">Commander (demo)</button>
+        <button class="btn-primary" type="submit">Valider la commande</button>
       </form>
       <div id="feedback"></div>
     </aside>
   </main>
 
   <footer>
-    <div class="container row" style="align-items:flex-start;">
-      <div>
-        <strong>Studio Commerce Demo</strong>
-        <div class="muted">Architecture front + API serverless prete pour Vercel.</div>
-      </div>
-      <div class="signature">Signature: Developpe par DELL</div>
+    <div class="container footer-inner">
+      <p>CREATE & BUILT BY LMO WEB SERVICES</p>
+      <a href="https://lmoportfolio.vercel.app" target="_blank" rel="noopener noreferrer">lmoportfolio.vercel.app</a>
     </div>
   </footer>
 

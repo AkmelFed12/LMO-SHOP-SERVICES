@@ -16,33 +16,33 @@ const el = {
   feedback: document.getElementById("feedback")
 };
 
-const money = (n) => `${n.toFixed(2)} EUR`;
+const money = (n) => `${Math.round(n).toLocaleString("fr-FR")} FCFA`;
 
 function persistCart() {
   localStorage.setItem("cart_demo", JSON.stringify(state.cart));
 }
 
 function getTotal() {
-  return state.cart.reduce((sum, i) => sum + i.price * i.qty, 0);
+  return state.cart.reduce((sum, item) => sum + item.price * item.qty, 0);
 }
 
 function renderCart() {
   if (!state.cart.length) {
-    el.cartItems.innerHTML = '<div class="muted">Ton panier est vide.</div>';
+    el.cartItems.innerHTML = '<div class="muted">Votre panier est vide.</div>';
   } else {
-    el.cartItems.innerHTML = state.cart.map(item => `
-      <div class="cart-item">
+    el.cartItems.innerHTML = state.cart.map((item) => `
+      <article class="cart-item">
         <div class="row"><strong>${item.name}</strong><button class="btn-soft" data-remove="${item.id}">Retirer</button></div>
         <div class="row"><span>${money(item.price)}</span><span>x${item.qty}</span></div>
-      </div>
+      </article>
     `).join("");
   }
+
   el.cartTotal.textContent = money(getTotal());
 
   document.querySelectorAll("[data-remove]").forEach((btn) => {
     btn.onclick = () => {
-      const id = btn.dataset.remove;
-      state.cart = state.cart.filter(i => i.id !== id);
+      state.cart = state.cart.filter((item) => item.id !== btn.dataset.remove);
       persistCart();
       renderCart();
     };
@@ -50,7 +50,7 @@ function renderCart() {
 }
 
 function addToCart(product) {
-  const existing = state.cart.find(i => i.id === product.id);
+  const existing = state.cart.find((item) => item.id === product.id);
   if (existing) existing.qty += 1;
   else state.cart.push({ id: product.id, name: product.name, price: product.price, qty: 1 });
   persistCart();
@@ -58,18 +58,19 @@ function addToCart(product) {
 }
 
 function renderProducts(list) {
-  el.stats.textContent = `${list.length} produit(s) affiche(s)`;
-  el.products.innerHTML = list.map(p => `
-    <article class="card">
-      <img src="${p.image}" alt="${p.name}" loading="lazy" />
-      <div class="card-body">
-        <span class="badge">${p.badge}</span>
-        <strong>${p.name}</strong>
-        <span class="muted">${p.category} • Note ${p.rating}</span>
-        <span class="muted">${p.description}</span>
+  el.stats.textContent = `${list.length} produit(s) disponible(s)`;
+
+  el.products.innerHTML = list.map((product) => `
+    <article class="product-card">
+      <img src="${product.image}" alt="${product.name}" loading="lazy" />
+      <div class="product-body">
+        <span class="badge">${product.badge}</span>
+        <h3 class="product-title">${product.name}</h3>
+        <div class="meta"><span>${product.category}</span><span>Note ${product.rating}</span></div>
+        <p class="muted">${product.description}</p>
         <div class="row">
-          <span class="price">${money(p.price)}</span>
-          <button class="btn-main" data-add="${p.id}">Ajouter</button>
+          <span class="price">${money(product.price)}</span>
+          <button class="btn-primary" data-add="${product.id}">Ajouter</button>
         </div>
       </div>
     </article>
@@ -77,20 +78,20 @@ function renderProducts(list) {
 
   document.querySelectorAll("[data-add]").forEach((btn) => {
     btn.onclick = () => {
-      const p = list.find(x => x.id === btn.dataset.add);
-      if (p) addToCart(p);
+      const found = list.find((item) => item.id === btn.dataset.add);
+      if (found) addToCart(found);
     };
   });
 }
 
 async function fetchProducts() {
   const params = new URLSearchParams(state.filters);
-  const res = await fetch(`/api/products?${params.toString()}`);
-  const data = await res.json();
+  const response = await fetch(`/api/products?${params.toString()}`);
+  const data = await response.json();
 
   if (!el.category.options.length) {
-    el.category.innerHTML = data.categories.map(c =>
-      `<option value="${c}">${c === "all" ? "Toutes categories" : c}</option>`
+    el.category.innerHTML = data.categories.map((category) =>
+      `<option value="${category}">${category === "all" ? "Toutes categories" : category}</option>`
     ).join("");
   }
 
@@ -98,61 +99,63 @@ async function fetchProducts() {
   renderProducts(data.products);
 }
 
-function wireFilters() {
-  el.search.addEventListener("input", (e) => {
-    state.filters.q = e.target.value.trim();
+function bindEvents() {
+  el.search.addEventListener("input", (event) => {
+    state.filters.q = event.target.value.trim();
     fetchProducts();
   });
 
-  el.category.addEventListener("change", (e) => {
-    state.filters.category = e.target.value;
+  el.category.addEventListener("change", (event) => {
+    state.filters.category = event.target.value;
     fetchProducts();
   });
 
-  el.sort.addEventListener("change", (e) => {
-    state.filters.sort = e.target.value;
+  el.sort.addEventListener("change", (event) => {
+    state.filters.sort = event.target.value;
     fetchProducts();
+  });
+
+  el.form.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    el.feedback.innerHTML = "";
+
+    if (!state.cart.length) {
+      el.feedback.innerHTML = '<div class="notice err">Ajoutez au moins un produit avant validation.</div>';
+      return;
+    }
+
+    const formData = new FormData(el.form);
+    const payload = {
+      customer: {
+        fullName: formData.get("fullName"),
+        email: formData.get("email"),
+        address: formData.get("address")
+      },
+      items: state.cart,
+      total: getTotal()
+    };
+
+    const response = await fetch("/api/checkout", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload)
+    });
+
+    const data = await response.json();
+
+    if (!response.ok) {
+      el.feedback.innerHTML = `<div class="notice err">${data.error || "Erreur de validation de commande."}</div>`;
+      return;
+    }
+
+    state.cart = [];
+    persistCart();
+    renderCart();
+    el.form.reset();
+    el.feedback.innerHTML = `<div class="notice ok">${data.message}<br>Reference: ${data.orderId}</div>`;
   });
 }
 
-el.form.addEventListener("submit", async (e) => {
-  e.preventDefault();
-  el.feedback.innerHTML = "";
-  if (!state.cart.length) {
-    el.feedback.innerHTML = '<div class="notice err">Ajoute au moins un produit.</div>';
-    return;
-  }
-
-  const fd = new FormData(el.form);
-  const payload = {
-    customer: {
-      fullName: fd.get("fullName"),
-      email: fd.get("email"),
-      address: fd.get("address")
-    },
-    items: state.cart,
-    total: getTotal()
-  };
-
-  const res = await fetch("/api/checkout", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(payload)
-  });
-
-  const data = await res.json();
-  if (!res.ok) {
-    el.feedback.innerHTML = `<div class="notice err">${data.error || "Erreur checkout"}</div>`;
-    return;
-  }
-
-  state.cart = [];
-  persistCart();
-  renderCart();
-  el.form.reset();
-  el.feedback.innerHTML = `<div class="notice ok">${data.message}<br/>ID: ${data.orderId}</div>`;
-});
-
-wireFilters();
+bindEvents();
 fetchProducts();
 renderCart();
