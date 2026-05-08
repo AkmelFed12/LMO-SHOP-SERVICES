@@ -30,7 +30,6 @@ function verifyToken(token) {
     if (!body || !sig) return null;
     const expected = crypto.createHmac("sha256", TOKEN_SECRET).update(body).digest("base64url");
     if (!crypto.timingSafeEqual(Buffer.from(sig), Buffer.from(expected))) return null;
-
     const payload = JSON.parse(Buffer.from(body, "base64url").toString("utf8"));
     if (!payload.exp || Date.now() > payload.exp) return null;
     return payload;
@@ -40,31 +39,16 @@ function verifyToken(token) {
 }
 
 function sanitizeUser(user) {
-  return {
-    id: user.id,
-    username: user.username,
-    email: user.email,
-    contact: user.contact,
-    role: user.role,
-    createdAt: user.createdAt
-  };
+  return { id: user.id, username: user.username, email: user.email, contact: user.contact, role: user.role, createdAt: user.createdAt };
 }
 
 function createDefaultDb() {
   return {
-    users: [
-      {
-        id: "USR-ADMIN-0001",
-        username: "Admin",
-        passwordHash: hashPassword("Mo74724233"),
-        email: "admin@lmoshopservices.ci",
-        contact: "+2250700000000",
-        role: "admin",
-        createdAt: new Date().toISOString()
-      }
-    ],
+    users: [{ id: "USR-ADMIN-0001", username: "Admin", passwordHash: hashPassword("Mo74724233"), email: "admin@lmoshopservices.ci", contact: "+2250700000000", role: "admin", createdAt: new Date().toISOString() }],
     orders: [],
-    auditLogs: []
+    auditLogs: [],
+    loginAttempts: {},
+    events: []
   };
 }
 
@@ -74,13 +58,13 @@ function loadDb() {
     fs.writeFileSync(DB_PATH, JSON.stringify(seed, null, 2));
     return seed;
   }
-
   const db = JSON.parse(fs.readFileSync(DB_PATH, "utf8"));
   let changed = false;
-
   db.users = Array.isArray(db.users) ? db.users : [];
   db.orders = Array.isArray(db.orders) ? db.orders : [];
   db.auditLogs = Array.isArray(db.auditLogs) ? db.auditLogs : [];
+  db.events = Array.isArray(db.events) ? db.events : [];
+  db.loginAttempts = db.loginAttempts && typeof db.loginAttempts === "object" ? db.loginAttempts : {};
 
   db.users.forEach((user) => {
     if (user.password && !user.passwordHash) {
@@ -99,23 +83,13 @@ function loadDb() {
   return db;
 }
 
-function saveDb(db) {
-  fs.writeFileSync(DB_PATH, JSON.stringify(db, null, 2));
-}
+function saveDb(db) { fs.writeFileSync(DB_PATH, JSON.stringify(db, null, 2)); }
 
 function addAudit(db, actorId, action, details = {}) {
-  db.auditLogs.push({
-    id: `AUD-${Date.now()}-${Math.floor(Math.random() * 1000)}`,
-    actorId,
-    action,
-    details,
-    createdAt: new Date().toISOString()
-  });
+  db.auditLogs.push({ id: `AUD-${Date.now()}-${Math.floor(Math.random() * 1000)}`, actorId, action, details, createdAt: new Date().toISOString() });
 }
 
-function createSessionToken(user) {
-  return signToken({ sub: user.id, role: user.role, exp: Date.now() + TOKEN_TTL_MS });
-}
+function createSessionToken(user) { return signToken({ sub: user.id, role: user.role, exp: Date.now() + TOKEN_TTL_MS }); }
 
 function getUserFromToken(db, token) {
   const payload = verifyToken(token);
@@ -123,13 +97,4 @@ function getUserFromToken(db, token) {
   return db.users.find((user) => user.id === payload.sub) || null;
 }
 
-module.exports = {
-  hashPassword,
-  verifyPassword,
-  sanitizeUser,
-  loadDb,
-  saveDb,
-  addAudit,
-  createSessionToken,
-  getUserFromToken
-};
+module.exports = { hashPassword, verifyPassword, sanitizeUser, loadDb, saveDb, addAudit, createSessionToken, getUserFromToken };

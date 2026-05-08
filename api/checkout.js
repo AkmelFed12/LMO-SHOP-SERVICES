@@ -1,18 +1,14 @@
 const { loadDb, saveDb, addAudit } = require("./store");
 
 module.exports = (req, res) => {
-  if (req.method !== "POST") {
-    return res.status(405).json({ error: "Method not allowed" });
-  }
+  if (req.method !== "POST") return res.status(405).json({ error: "Method not allowed" });
 
-  const { customer, items, total } = req.body || {};
-
+  const { customer, items, total, payment } = req.body || {};
   if (!customer || !customer.fullName || !customer.email || !customer.contact || !Array.isArray(items) || !items.length) {
     return res.status(400).json({ error: "Payload de commande invalide" });
   }
 
   const db = loadDb();
-
   const order = {
     orderId: `ORD-${Date.now()}`,
     customerId: customer.customerId || "INVITE",
@@ -22,6 +18,7 @@ module.exports = (req, res) => {
     address: customer.address || "Non renseignee",
     items,
     total,
+    payment: payment || { method: "Paiement a la livraison", status: "en_attente" },
     createdAt: new Date().toISOString(),
     status: "Nouvelle"
   };
@@ -30,10 +27,5 @@ module.exports = (req, res) => {
   addAudit(db, customer.customerId || "INVITE", "ORDER_CREATED", { orderId: order.orderId, total });
   saveDb(db);
 
-  return res.status(201).json({
-    message: "Commande enregistree avec succes.",
-    orderId: order.orderId,
-    total: order.total,
-    createdAt: order.createdAt
-  });
+  return res.status(201).json({ message: "Commande enregistree avec succes.", orderId: order.orderId, total: order.total, createdAt: order.createdAt });
 };
