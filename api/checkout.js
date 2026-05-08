@@ -1,4 +1,4 @@
-const { store } = require("./store");
+const { loadDb, saveDb, addAudit } = require("./store");
 
 module.exports = (req, res) => {
   if (req.method !== "POST") {
@@ -7,16 +7,11 @@ module.exports = (req, res) => {
 
   const { customer, items, total } = req.body || {};
 
-  if (
-    !customer ||
-    !customer.fullName ||
-    !customer.email ||
-    !customer.contact ||
-    !Array.isArray(items) ||
-    !items.length
-  ) {
+  if (!customer || !customer.fullName || !customer.email || !customer.contact || !Array.isArray(items) || !items.length) {
     return res.status(400).json({ error: "Payload de commande invalide" });
   }
+
+  const db = loadDb();
 
   const order = {
     orderId: `ORD-${Date.now()}`,
@@ -31,7 +26,9 @@ module.exports = (req, res) => {
     status: "Nouvelle"
   };
 
-  store.orders.push(order);
+  db.orders.push(order);
+  addAudit(db, customer.customerId || "INVITE", "ORDER_CREATED", { orderId: order.orderId, total });
+  saveDb(db);
 
   return res.status(201).json({
     message: "Commande enregistree avec succes.",

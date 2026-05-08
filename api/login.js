@@ -1,4 +1,4 @@
-const { store, createToken, sanitizeUser } = require("./store");
+const { loadDb, sanitizeUser, verifyPassword, createSessionToken, addAudit, saveDb } = require("./store");
 
 module.exports = (req, res) => {
   if (req.method !== "POST") return res.status(405).json({ error: "Method not allowed" });
@@ -6,14 +6,15 @@ module.exports = (req, res) => {
   const { username, password } = req.body || {};
   if (!username || !password) return res.status(400).json({ error: "Identifiants requis" });
 
-  const user = store.users.find((u) => u.username === username && u.password === password);
-  if (!user) return res.status(401).json({ error: "Identifiants invalides" });
+  const db = loadDb();
+  const user = db.users.find((u) => u.username.toLowerCase() === String(username).toLowerCase());
+  if (!user || !verifyPassword(password, user.passwordHash)) {
+    return res.status(401).json({ error: "Identifiants invalides" });
+  }
 
-  const token = createToken();
-  store.sessions[token] = user.id;
+  const token = createSessionToken(user);
+  addAudit(db, user.id, "LOGIN_SUCCESS", { username: user.username });
+  saveDb(db);
 
-  return res.status(200).json({
-    token,
-    user: sanitizeUser(user)
-  });
+  return res.status(200).json({ token, user: sanitizeUser(user) });
 };
