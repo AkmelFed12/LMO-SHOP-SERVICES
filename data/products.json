@@ -1,23 +1,282 @@
 [
-  {"id":"prd-0001","name":"Infinix HOT NOTE","category":"Telephonie","price":119900,"rating":4.4,"image":"https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=80","description":"Prix source IvoireMobiles: 69 900 FCFA. Prix catalogue: +50 000 FCFA.","stock":18,"badge":"IvoireMobiles","specs":{"source_url":"https://www.ivoiremobiles.net/ancien/195-infinix-hotnote.html"}},
-  {"id":"prd-0002","name":"LG L20 Dual","category":"Telephonie","price":84900,"rating":4.2,"image":"https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=1200&q=80","description":"Prix source IvoireMobiles: 34 900 FCFA. Prix catalogue: +50 000 FCFA.","stock":12,"badge":"IvoireMobiles","specs":{"source_url":"https://www.ivoiremobiles.net/ancien/160-lg-l20-dual.html"}},
-  {"id":"prd-0003","name":"Tecno W3 4G","category":"Telephonie","price":94900,"rating":4.3,"image":"https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=1200&q=80","description":"Prix source IvoireMobiles: 44 900 FCFA. Prix catalogue: +50 000 FCFA.","stock":16,"badge":"IvoireMobiles","specs":{"source_url":"https://www.ivoiremobiles.net/ancien/352-tecno-w3.html"}},
-  {"id":"prd-0004","name":"HTC Desire 816","category":"Telephonie","price":219000,"rating":4.5,"image":"https://images.unsplash.com/photo-1512499617640-c2f999098c01?auto=format&fit=crop&w=1200&q=80","description":"Prix source IvoireMobiles: 169 000 FCFA. Prix catalogue: +50 000 FCFA.","stock":9,"badge":"IvoireMobiles","specs":{"source_url":"https://www.ivoiremobiles.net/ancien/135-htc-desire-816.html"}},
-  {"id":"prd-0005","name":"BlackBerry DTEK50","category":"Telephonie","price":199900,"rating":4.4,"image":"https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=80","description":"Prix source IvoireMobiles: 149 900 FCFA. Prix catalogue: +50 000 FCFA.","stock":7,"badge":"IvoireMobiles","specs":{"source_url":"https://www.ivoiremobiles.net/ancien/347-blackberry-dtek50.html"}},
-  {"id":"prd-0006","name":"Huawei Honor View 20","category":"Telephonie","price":519900,"rating":4.6,"image":"https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=1200&q=80","description":"Prix source IvoireMobiles: 469 900 FCFA. Prix catalogue: +50 000 FCFA.","stock":6,"badge":"IvoireMobiles","specs":{"source_url":"https://www.ivoiremobiles.net/ancien/1097-huawei-honor-view-20.html"}},
-  {"id":"prd-0007","name":"Sony Xperia go","category":"Telephonie","price":99900,"rating":4.1,"image":"https://images.unsplash.com/photo-1512499617640-c2f999098c01?auto=format&fit=crop&w=1200&q=80","description":"Prix source IvoireMobiles: 49 900 FCFA. Prix catalogue: +50 000 FCFA.","stock":14,"badge":"IvoireMobiles","specs":{"source_url":"https://www.ivoiremobiles.net/ancien/315-sony-xperia-go.html"}},
-  {"id":"prd-0008","name":"BlackBerry Z10","category":"Telephonie","price":129900,"rating":4.2,"image":"https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=1200&q=80","description":"Prix source IvoireMobiles: 79 900 FCFA. Prix catalogue: +50 000 FCFA.","stock":11,"badge":"IvoireMobiles","specs":{"source_url":"https://www.ivoiremobiles.net/ancien/8-blackberry-z10.html"}},
-  {"id":"prd-0009","name":"LG L30 Dual","category":"Telephonie","price":89900,"rating":4.0,"image":"https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=80","description":"Prix source IvoireMobiles: 39 900 FCFA. Prix catalogue: +50 000 FCFA.","stock":13,"badge":"IvoireMobiles","specs":{"source_url":"https://www.ivoiremobiles.net/ancien/161-lg-l30-dual.html"}},
-  {"id":"prd-0010","name":"Samsung Galaxy Z Flip4 128 Go","category":"Telephonie","price":349900,"rating":4.8,"image":"https://images.unsplash.com/photo-1468495244123-6c6c332eeece?auto=format&fit=crop&w=1200&q=80","description":"Prix source IvoireMobiles: 299 900 FCFA. Prix catalogue: +50 000 FCFA.","stock":8,"badge":"IvoireMobiles","specs":{"source_url":"https://www.ivoiremobiles.net/samsung/1963-samsung-galaxy-z-flip4-128-go.html"}},
-
-  {"id":"prd-0011","name":"ADVANCE C808","category":"Tablette","price":84900,"rating":4.1,"image":"https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=1200&q=80","description":"Prix source IvoireMobiles: 34 900 FCFA. Prix catalogue: +50 000 FCFA.","stock":15,"badge":"IvoireMobiles","specs":{"source_url":"https://www.ivoiremobiles.net/397-iconix-smart-tabs-c606.html"}},
-  {"id":"prd-0012","name":"itel S23","category":"Telephonie","price":111900,"rating":4.5,"image":"https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=1200&q=80","description":"Prix source IvoireMobiles: 61 900 FCFA. Prix catalogue: +50 000 FCFA.","stock":17,"badge":"IvoireMobiles","specs":{"source_url":"https://www.ivoiremobiles.net/itel/2086-itel-s23.html"}},
-  {"id":"prd-0013","name":"NASCO ALLURE+","category":"Telephonie","price":189900,"rating":4.3,"image":"https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=80","description":"Prix source IvoireMobiles: 139 900 FCFA. Prix catalogue: +50 000 FCFA.","stock":9,"badge":"IvoireMobiles","specs":{"source_url":"https://www.ivoiremobiles.net/ancien/681-nasco-smartphone-allurenas-600.html"}},
-  {"id":"prd-0014","name":"LG Optimus L7 II","category":"Telephonie","price":124900,"rating":4.2,"image":"https://images.unsplash.com/photo-1512499617640-c2f999098c01?auto=format&fit=crop&w=1200&q=80","description":"Prix source IvoireMobiles: 74 900 FCFA. Prix catalogue: +50 000 FCFA.","stock":10,"badge":"IvoireMobiles","specs":{"source_url":"https://www.ivoiremobiles.net/ancien/186-lg-optimus-l7-ii.html"}},
-  {"id":"prd-0015","name":"Itel S33","category":"Telephonie","price":104900,"rating":4.0,"image":"https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=1200&q=80","description":"Prix source IvoireMobiles: 54 900 FCFA. Prix catalogue: +50 000 FCFA.","stock":14,"badge":"IvoireMobiles","specs":{"source_url":"https://www.ivoiremobiles.net/ancien/1010-itel-s13-4895180738487.html"}},
-  {"id":"prd-0016","name":"Itel A44","category":"Telephonie","price":98900,"rating":4.0,"image":"https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=1200&q=80","description":"Prix source IvoireMobiles: 48 900 FCFA. Prix catalogue: +50 000 FCFA.","stock":12,"badge":"IvoireMobiles","specs":{"source_url":"https://www.ivoiremobiles.net/ancien/991-itel-a44.html"}},
-  {"id":"prd-0017","name":"Itel IT 1408","category":"Telephonie","price":72900,"rating":3.9,"image":"https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=80","description":"Prix source IvoireMobiles: 22 900 FCFA. Prix catalogue: +50 000 FCFA.","stock":19,"badge":"IvoireMobiles","specs":{"source_url":"https://www.ivoiremobiles.net/ancien/500-itel-it-1408.html"}},
-  {"id":"prd-0018","name":"Tecno Camon CX Air","category":"Telephonie","price":124900,"rating":4.4,"image":"https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=1200&q=80","description":"Prix source IvoireMobiles: 74 900 FCFA. Prix catalogue: +50 000 FCFA.","stock":11,"badge":"IvoireMobiles","specs":{"source_url":"https://www.ivoiremobiles.net/ancien/448-tecno-camon-cx.html"}},
-  {"id":"prd-0019","name":"Infinix Smart","category":"Telephonie","price":98900,"rating":4.1,"image":"https://images.unsplash.com/photo-1512499617640-c2f999098c01?auto=format&fit=crop&w=1200&q=80","description":"Prix source IvoireMobiles: 48 900 FCFA. Prix catalogue: +50 000 FCFA.","stock":16,"badge":"IvoireMobiles","specs":{"source_url":"https://www.ivoiremobiles.net/ancien/454-infinix-smart.html"}},
-  {"id":"prd-0020","name":"ADVANCE C707","category":"Tablette","price":74900,"rating":3.8,"image":"https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&w=1200&q=80","description":"Prix source IvoireMobiles: 24 900 FCFA. Prix catalogue: +50 000 FCFA.","stock":20,"badge":"IvoireMobiles","specs":{"source_url":"https://www.ivoiremobiles.net/ancien/396-advance-c707.html"}}
+  {
+    "id": "prd-0001",
+    "name": "Infinix HOT NOTE",
+    "category": "Telephonie",
+    "price": 119900,
+    "rating": 4.4,
+    "image": "https://image.thum.io/get/width/1200/noanimate/https%3A%2F%2Fwww.ivoiremobiles.net%2Fancien%2F195-infinix-hotnote.html",
+    "description": "Prix source IvoireMobiles: 69 900 FCFA. Prix catalogue: +50 000 FCFA.",
+    "stock": 18,
+    "badge": "IvoireMobiles",
+    "specs": {
+      "source_url": "https://www.ivoiremobiles.net/ancien/195-infinix-hotnote.html"
+    }
+  },
+  {
+    "id": "prd-0002",
+    "name": "LG L20 Dual",
+    "category": "Telephonie",
+    "price": 84900,
+    "rating": 4.2,
+    "image": "https://image.thum.io/get/width/1200/noanimate/https%3A%2F%2Fwww.ivoiremobiles.net%2Fancien%2F160-lg-l20-dual.html",
+    "description": "Prix source IvoireMobiles: 34 900 FCFA. Prix catalogue: +50 000 FCFA.",
+    "stock": 12,
+    "badge": "IvoireMobiles",
+    "specs": {
+      "source_url": "https://www.ivoiremobiles.net/ancien/160-lg-l20-dual.html"
+    }
+  },
+  {
+    "id": "prd-0003",
+    "name": "Tecno W3 4G",
+    "category": "Telephonie",
+    "price": 94900,
+    "rating": 4.3,
+    "image": "https://image.thum.io/get/width/1200/noanimate/https%3A%2F%2Fwww.ivoiremobiles.net%2Fancien%2F352-tecno-w3.html",
+    "description": "Prix source IvoireMobiles: 44 900 FCFA. Prix catalogue: +50 000 FCFA.",
+    "stock": 16,
+    "badge": "IvoireMobiles",
+    "specs": {
+      "source_url": "https://www.ivoiremobiles.net/ancien/352-tecno-w3.html"
+    }
+  },
+  {
+    "id": "prd-0004",
+    "name": "HTC Desire 816",
+    "category": "Telephonie",
+    "price": 219000,
+    "rating": 4.5,
+    "image": "https://image.thum.io/get/width/1200/noanimate/https%3A%2F%2Fwww.ivoiremobiles.net%2Fancien%2F135-htc-desire-816.html",
+    "description": "Prix source IvoireMobiles: 169 000 FCFA. Prix catalogue: +50 000 FCFA.",
+    "stock": 9,
+    "badge": "IvoireMobiles",
+    "specs": {
+      "source_url": "https://www.ivoiremobiles.net/ancien/135-htc-desire-816.html"
+    }
+  },
+  {
+    "id": "prd-0005",
+    "name": "BlackBerry DTEK50",
+    "category": "Telephonie",
+    "price": 199900,
+    "rating": 4.4,
+    "image": "https://image.thum.io/get/width/1200/noanimate/https%3A%2F%2Fwww.ivoiremobiles.net%2Fancien%2F347-blackberry-dtek50.html",
+    "description": "Prix source IvoireMobiles: 149 900 FCFA. Prix catalogue: +50 000 FCFA.",
+    "stock": 7,
+    "badge": "IvoireMobiles",
+    "specs": {
+      "source_url": "https://www.ivoiremobiles.net/ancien/347-blackberry-dtek50.html"
+    }
+  },
+  {
+    "id": "prd-0006",
+    "name": "Huawei Honor View 20",
+    "category": "Telephonie",
+    "price": 519900,
+    "rating": 4.6,
+    "image": "https://image.thum.io/get/width/1200/noanimate/https%3A%2F%2Fwww.ivoiremobiles.net%2Fancien%2F1097-huawei-honor-view-20.html",
+    "description": "Prix source IvoireMobiles: 469 900 FCFA. Prix catalogue: +50 000 FCFA.",
+    "stock": 6,
+    "badge": "IvoireMobiles",
+    "specs": {
+      "source_url": "https://www.ivoiremobiles.net/ancien/1097-huawei-honor-view-20.html"
+    }
+  },
+  {
+    "id": "prd-0007",
+    "name": "Sony Xperia go",
+    "category": "Telephonie",
+    "price": 99900,
+    "rating": 4.1,
+    "image": "https://image.thum.io/get/width/1200/noanimate/https%3A%2F%2Fwww.ivoiremobiles.net%2Fancien%2F315-sony-xperia-go.html",
+    "description": "Prix source IvoireMobiles: 49 900 FCFA. Prix catalogue: +50 000 FCFA.",
+    "stock": 14,
+    "badge": "IvoireMobiles",
+    "specs": {
+      "source_url": "https://www.ivoiremobiles.net/ancien/315-sony-xperia-go.html"
+    }
+  },
+  {
+    "id": "prd-0008",
+    "name": "BlackBerry Z10",
+    "category": "Telephonie",
+    "price": 129900,
+    "rating": 4.2,
+    "image": "https://image.thum.io/get/width/1200/noanimate/https%3A%2F%2Fwww.ivoiremobiles.net%2Fancien%2F8-blackberry-z10.html",
+    "description": "Prix source IvoireMobiles: 79 900 FCFA. Prix catalogue: +50 000 FCFA.",
+    "stock": 11,
+    "badge": "IvoireMobiles",
+    "specs": {
+      "source_url": "https://www.ivoiremobiles.net/ancien/8-blackberry-z10.html"
+    }
+  },
+  {
+    "id": "prd-0009",
+    "name": "LG L30 Dual",
+    "category": "Telephonie",
+    "price": 89900,
+    "rating": 4.0,
+    "image": "https://image.thum.io/get/width/1200/noanimate/https%3A%2F%2Fwww.ivoiremobiles.net%2Fancien%2F161-lg-l30-dual.html",
+    "description": "Prix source IvoireMobiles: 39 900 FCFA. Prix catalogue: +50 000 FCFA.",
+    "stock": 13,
+    "badge": "IvoireMobiles",
+    "specs": {
+      "source_url": "https://www.ivoiremobiles.net/ancien/161-lg-l30-dual.html"
+    }
+  },
+  {
+    "id": "prd-0010",
+    "name": "Samsung Galaxy Z Flip4 128 Go",
+    "category": "Telephonie",
+    "price": 349900,
+    "rating": 4.8,
+    "image": "https://image.thum.io/get/width/1200/noanimate/https%3A%2F%2Fwww.ivoiremobiles.net%2Fsamsung%2F1963-samsung-galaxy-z-flip4-128-go.html",
+    "description": "Prix source IvoireMobiles: 299 900 FCFA. Prix catalogue: +50 000 FCFA.",
+    "stock": 8,
+    "badge": "IvoireMobiles",
+    "specs": {
+      "source_url": "https://www.ivoiremobiles.net/samsung/1963-samsung-galaxy-z-flip4-128-go.html"
+    }
+  },
+  {
+    "id": "prd-0011",
+    "name": "ADVANCE C808",
+    "category": "Tablette",
+    "price": 84900,
+    "rating": 4.1,
+    "image": "https://image.thum.io/get/width/1200/noanimate/https%3A%2F%2Fwww.ivoiremobiles.net%2F397-iconix-smart-tabs-c606.html",
+    "description": "Prix source IvoireMobiles: 34 900 FCFA. Prix catalogue: +50 000 FCFA.",
+    "stock": 15,
+    "badge": "IvoireMobiles",
+    "specs": {
+      "source_url": "https://www.ivoiremobiles.net/397-iconix-smart-tabs-c606.html"
+    }
+  },
+  {
+    "id": "prd-0012",
+    "name": "itel S23",
+    "category": "Telephonie",
+    "price": 111900,
+    "rating": 4.5,
+    "image": "https://image.thum.io/get/width/1200/noanimate/https%3A%2F%2Fwww.ivoiremobiles.net%2Fitel%2F2086-itel-s23.html",
+    "description": "Prix source IvoireMobiles: 61 900 FCFA. Prix catalogue: +50 000 FCFA.",
+    "stock": 17,
+    "badge": "IvoireMobiles",
+    "specs": {
+      "source_url": "https://www.ivoiremobiles.net/itel/2086-itel-s23.html"
+    }
+  },
+  {
+    "id": "prd-0013",
+    "name": "NASCO ALLURE+",
+    "category": "Telephonie",
+    "price": 189900,
+    "rating": 4.3,
+    "image": "https://image.thum.io/get/width/1200/noanimate/https%3A%2F%2Fwww.ivoiremobiles.net%2Fancien%2F681-nasco-smartphone-allurenas-600.html",
+    "description": "Prix source IvoireMobiles: 139 900 FCFA. Prix catalogue: +50 000 FCFA.",
+    "stock": 9,
+    "badge": "IvoireMobiles",
+    "specs": {
+      "source_url": "https://www.ivoiremobiles.net/ancien/681-nasco-smartphone-allurenas-600.html"
+    }
+  },
+  {
+    "id": "prd-0014",
+    "name": "LG Optimus L7 II",
+    "category": "Telephonie",
+    "price": 124900,
+    "rating": 4.2,
+    "image": "https://image.thum.io/get/width/1200/noanimate/https%3A%2F%2Fwww.ivoiremobiles.net%2Fancien%2F186-lg-optimus-l7-ii.html",
+    "description": "Prix source IvoireMobiles: 74 900 FCFA. Prix catalogue: +50 000 FCFA.",
+    "stock": 10,
+    "badge": "IvoireMobiles",
+    "specs": {
+      "source_url": "https://www.ivoiremobiles.net/ancien/186-lg-optimus-l7-ii.html"
+    }
+  },
+  {
+    "id": "prd-0015",
+    "name": "Itel S33",
+    "category": "Telephonie",
+    "price": 104900,
+    "rating": 4.0,
+    "image": "https://image.thum.io/get/width/1200/noanimate/https%3A%2F%2Fwww.ivoiremobiles.net%2Fancien%2F1010-itel-s13-4895180738487.html",
+    "description": "Prix source IvoireMobiles: 54 900 FCFA. Prix catalogue: +50 000 FCFA.",
+    "stock": 14,
+    "badge": "IvoireMobiles",
+    "specs": {
+      "source_url": "https://www.ivoiremobiles.net/ancien/1010-itel-s13-4895180738487.html"
+    }
+  },
+  {
+    "id": "prd-0016",
+    "name": "Itel A44",
+    "category": "Telephonie",
+    "price": 98900,
+    "rating": 4.0,
+    "image": "https://image.thum.io/get/width/1200/noanimate/https%3A%2F%2Fwww.ivoiremobiles.net%2Fancien%2F991-itel-a44.html",
+    "description": "Prix source IvoireMobiles: 48 900 FCFA. Prix catalogue: +50 000 FCFA.",
+    "stock": 12,
+    "badge": "IvoireMobiles",
+    "specs": {
+      "source_url": "https://www.ivoiremobiles.net/ancien/991-itel-a44.html"
+    }
+  },
+  {
+    "id": "prd-0017",
+    "name": "Itel IT 1408",
+    "category": "Telephonie",
+    "price": 72900,
+    "rating": 3.9,
+    "image": "https://image.thum.io/get/width/1200/noanimate/https%3A%2F%2Fwww.ivoiremobiles.net%2Fancien%2F500-itel-it-1408.html",
+    "description": "Prix source IvoireMobiles: 22 900 FCFA. Prix catalogue: +50 000 FCFA.",
+    "stock": 19,
+    "badge": "IvoireMobiles",
+    "specs": {
+      "source_url": "https://www.ivoiremobiles.net/ancien/500-itel-it-1408.html"
+    }
+  },
+  {
+    "id": "prd-0018",
+    "name": "Tecno Camon CX Air",
+    "category": "Telephonie",
+    "price": 124900,
+    "rating": 4.4,
+    "image": "https://image.thum.io/get/width/1200/noanimate/https%3A%2F%2Fwww.ivoiremobiles.net%2Fancien%2F448-tecno-camon-cx.html",
+    "description": "Prix source IvoireMobiles: 74 900 FCFA. Prix catalogue: +50 000 FCFA.",
+    "stock": 11,
+    "badge": "IvoireMobiles",
+    "specs": {
+      "source_url": "https://www.ivoiremobiles.net/ancien/448-tecno-camon-cx.html"
+    }
+  },
+  {
+    "id": "prd-0019",
+    "name": "Infinix Smart",
+    "category": "Telephonie",
+    "price": 98900,
+    "rating": 4.1,
+    "image": "https://image.thum.io/get/width/1200/noanimate/https%3A%2F%2Fwww.ivoiremobiles.net%2Fancien%2F454-infinix-smart.html",
+    "description": "Prix source IvoireMobiles: 48 900 FCFA. Prix catalogue: +50 000 FCFA.",
+    "stock": 16,
+    "badge": "IvoireMobiles",
+    "specs": {
+      "source_url": "https://www.ivoiremobiles.net/ancien/454-infinix-smart.html"
+    }
+  },
+  {
+    "id": "prd-0020",
+    "name": "ADVANCE C707",
+    "category": "Tablette",
+    "price": 74900,
+    "rating": 3.8,
+    "image": "https://image.thum.io/get/width/1200/noanimate/https%3A%2F%2Fwww.ivoiremobiles.net%2Fancien%2F396-advance-c707.html",
+    "description": "Prix source IvoireMobiles: 24 900 FCFA. Prix catalogue: +50 000 FCFA.",
+    "stock": 20,
+    "badge": "IvoireMobiles",
+    "specs": {
+      "source_url": "https://www.ivoiremobiles.net/ancien/396-advance-c707.html"
+    }
+  }
 ]
