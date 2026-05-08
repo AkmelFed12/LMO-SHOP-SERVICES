@@ -3,1100 +3,1900 @@
     "id": "prd-0001",
     "name": "Ordinateur Portable HP ProBook 13",
     "category": "Informatique",
-    "price": 189700,
+    "price": 239700,
     "rating": 4.3,
     "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 9,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0002",
     "name": "Ordinateur Portable Dell ProBook 16",
     "category": "Informatique",
-    "price": 194400,
+    "price": 244400,
     "rating": 4.4,
     "image": "https://images.unsplash.com/photo-1517336714739-489689fd1ca8?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 10,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0003",
     "name": "Ordinateur Portable Lenovo ProBook 19",
     "category": "Informatique",
-    "price": 199100,
+    "price": 249100,
     "rating": 4.5,
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 11,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0004",
     "name": "Ordinateur Portable Asus ProBook 22",
     "category": "Informatique",
-    "price": 203800,
+    "price": 253800,
     "rating": 4.6,
     "image": "https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 12,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0005",
     "name": "Ordinateur Portable Acer ProBook 25",
     "category": "Informatique",
-    "price": 208500,
+    "price": 258500,
     "rating": 4.7,
     "image": "https://images.unsplash.com/photo-1484788984921-03950022c9ef?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 13,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0006",
     "name": "Ordinateur Portable Apple ProBook 28",
     "category": "Informatique",
-    "price": 213200,
+    "price": 263200,
     "rating": 4.8,
     "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 14,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0007",
     "name": "Ordinateur Portable MSI ProBook 31",
     "category": "Informatique",
-    "price": 217900,
+    "price": 267900,
     "rating": 4.2,
     "image": "https://images.unsplash.com/photo-1517336714739-489689fd1ca8?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 15,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0008",
     "name": "Ordinateur Portable Huawei ProBook 34",
     "category": "Informatique",
-    "price": 222600,
+    "price": 272600,
     "rating": 4.3,
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 16,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0009",
     "name": "Ordinateur Portable Toshiba ProBook 37",
     "category": "Informatique",
-    "price": 227300,
+    "price": 277300,
     "rating": 4.4,
     "image": "https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 17,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0010",
     "name": "Ordinateur Portable Samsung ProBook 40",
     "category": "Informatique",
-    "price": 232000,
+    "price": 282000,
     "rating": 4.5,
     "image": "https://images.unsplash.com/photo-1484788984921-03950022c9ef?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 18,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0011",
     "name": "Ordinateur Portable HP ProBook 43",
     "category": "Informatique",
-    "price": 236700,
+    "price": 286700,
     "rating": 4.6,
     "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 19,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0012",
     "name": "Ordinateur Portable Dell ProBook 46",
     "category": "Informatique",
-    "price": 241400,
+    "price": 291400,
     "rating": 4.7,
     "image": "https://images.unsplash.com/photo-1517336714739-489689fd1ca8?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 20,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0013",
     "name": "Ordinateur Portable Lenovo ProBook 49",
     "category": "Informatique",
-    "price": 246100,
+    "price": 296100,
     "rating": 4.8,
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 21,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0014",
     "name": "Ordinateur Portable Asus ProBook 12",
     "category": "Informatique",
-    "price": 250800,
+    "price": 300800,
     "rating": 4.2,
     "image": "https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 22,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0015",
     "name": "Ordinateur Portable Acer ProBook 15",
     "category": "Informatique",
-    "price": 255500,
+    "price": 305500,
     "rating": 4.3,
     "image": "https://images.unsplash.com/photo-1484788984921-03950022c9ef?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 23,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0016",
     "name": "Ordinateur Portable Apple ProBook 18",
     "category": "Informatique",
-    "price": 260200,
+    "price": 310200,
     "rating": 4.4,
     "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 24,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0017",
     "name": "Ordinateur Portable MSI ProBook 21",
     "category": "Informatique",
-    "price": 264900,
+    "price": 314900,
     "rating": 4.5,
     "image": "https://images.unsplash.com/photo-1517336714739-489689fd1ca8?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 25,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0018",
     "name": "Ordinateur Portable Huawei ProBook 24",
     "category": "Informatique",
-    "price": 269600,
+    "price": 319600,
     "rating": 4.6,
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 26,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0019",
     "name": "Ordinateur Portable Toshiba ProBook 27",
     "category": "Informatique",
-    "price": 274300,
+    "price": 324300,
     "rating": 4.7,
     "image": "https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 27,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0020",
     "name": "Ordinateur Portable Samsung ProBook 30",
     "category": "Informatique",
-    "price": 279000,
+    "price": 329000,
     "rating": 4.8,
     "image": "https://images.unsplash.com/photo-1484788984921-03950022c9ef?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 28,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0021",
     "name": "Ordinateur Portable HP ProBook 33",
     "category": "Informatique",
-    "price": 283700,
+    "price": 333700,
     "rating": 4.2,
     "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 29,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0022",
     "name": "Ordinateur Portable Dell ProBook 36",
     "category": "Informatique",
-    "price": 288400,
+    "price": 338400,
     "rating": 4.3,
     "image": "https://images.unsplash.com/photo-1517336714739-489689fd1ca8?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 30,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0023",
     "name": "Ordinateur Portable Lenovo ProBook 39",
     "category": "Informatique",
-    "price": 293100,
+    "price": 343100,
     "rating": 4.4,
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 31,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0024",
     "name": "Ordinateur Portable Asus ProBook 42",
     "category": "Informatique",
-    "price": 297800,
+    "price": 347800,
     "rating": 4.5,
     "image": "https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 32,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0025",
     "name": "Ordinateur Portable Acer ProBook 45",
     "category": "Informatique",
-    "price": 302500,
+    "price": 352500,
     "rating": 4.6,
     "image": "https://images.unsplash.com/photo-1484788984921-03950022c9ef?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 33,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0026",
     "name": "Ordinateur Portable Apple ProBook 48",
     "category": "Informatique",
-    "price": 307200,
+    "price": 357200,
     "rating": 4.7,
     "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 34,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0027",
     "name": "Ordinateur Portable MSI ProBook 11",
     "category": "Informatique",
-    "price": 311900,
+    "price": 361900,
     "rating": 4.8,
     "image": "https://images.unsplash.com/photo-1517336714739-489689fd1ca8?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 35,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0028",
     "name": "Ordinateur Portable Huawei ProBook 14",
     "category": "Informatique",
-    "price": 316600,
+    "price": 366600,
     "rating": 4.2,
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 36,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0029",
     "name": "Ordinateur Portable Toshiba ProBook 17",
     "category": "Informatique",
-    "price": 321300,
+    "price": 371300,
     "rating": 4.3,
     "image": "https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 37,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0030",
     "name": "Ordinateur Portable Samsung ProBook 20",
     "category": "Informatique",
-    "price": 326000,
+    "price": 376000,
     "rating": 4.4,
     "image": "https://images.unsplash.com/photo-1484788984921-03950022c9ef?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 38,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0031",
     "name": "Ordinateur Portable HP ProBook 23",
     "category": "Informatique",
-    "price": 330700,
+    "price": 380700,
     "rating": 4.5,
     "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 39,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0032",
     "name": "Ordinateur Portable Dell ProBook 26",
     "category": "Informatique",
-    "price": 335400,
+    "price": 385400,
     "rating": 4.6,
     "image": "https://images.unsplash.com/photo-1517336714739-489689fd1ca8?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 40,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0033",
     "name": "Ordinateur Portable Lenovo ProBook 29",
     "category": "Informatique",
-    "price": 340100,
+    "price": 390100,
     "rating": 4.7,
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 41,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0034",
     "name": "Ordinateur Portable Asus ProBook 32",
     "category": "Informatique",
-    "price": 344800,
+    "price": 394800,
     "rating": 4.8,
     "image": "https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 42,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0035",
     "name": "Ordinateur Portable Acer ProBook 35",
     "category": "Informatique",
-    "price": 349500,
+    "price": 399500,
     "rating": 4.2,
     "image": "https://images.unsplash.com/photo-1484788984921-03950022c9ef?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 43,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0036",
     "name": "Ordinateur Portable Apple ProBook 38",
     "category": "Informatique",
-    "price": 354200,
+    "price": 404200,
     "rating": 4.3,
     "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 44,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0037",
     "name": "Ordinateur Portable MSI ProBook 41",
     "category": "Informatique",
-    "price": 358900,
+    "price": 408900,
     "rating": 4.4,
     "image": "https://images.unsplash.com/photo-1517336714739-489689fd1ca8?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 45,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0038",
     "name": "Ordinateur Portable Huawei ProBook 44",
     "category": "Informatique",
-    "price": 363600,
+    "price": 413600,
     "rating": 4.5,
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 46,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0039",
     "name": "Ordinateur Portable Toshiba ProBook 47",
     "category": "Informatique",
-    "price": 368300,
+    "price": 418300,
     "rating": 4.6,
     "image": "https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 47,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0040",
     "name": "Ordinateur Portable Samsung ProBook 10",
     "category": "Informatique",
-    "price": 373000,
+    "price": 423000,
     "rating": 4.7,
     "image": "https://images.unsplash.com/photo-1484788984921-03950022c9ef?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 48,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0041",
     "name": "Ordinateur Portable HP ProBook 13",
     "category": "Informatique",
-    "price": 377700,
+    "price": 427700,
     "rating": 4.8,
     "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 49,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0042",
     "name": "Ordinateur Portable Dell ProBook 16",
     "category": "Informatique",
-    "price": 382400,
+    "price": 432400,
     "rating": 4.2,
     "image": "https://images.unsplash.com/photo-1517336714739-489689fd1ca8?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 50,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0043",
     "name": "Ordinateur Portable Lenovo ProBook 19",
     "category": "Informatique",
-    "price": 387100,
+    "price": 437100,
     "rating": 4.3,
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 51,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0044",
     "name": "Ordinateur Portable Asus ProBook 22",
     "category": "Informatique",
-    "price": 391800,
+    "price": 441800,
     "rating": 4.4,
     "image": "https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 52,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0045",
     "name": "Ordinateur Portable Acer ProBook 25",
     "category": "Informatique",
-    "price": 396500,
+    "price": 446500,
     "rating": 4.5,
     "image": "https://images.unsplash.com/photo-1484788984921-03950022c9ef?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 53,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0046",
     "name": "Ordinateur Portable Apple ProBook 28",
     "category": "Informatique",
-    "price": 401200,
+    "price": 451200,
     "rating": 4.6,
     "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 54,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0047",
     "name": "Ordinateur Portable MSI ProBook 31",
     "category": "Informatique",
-    "price": 405900,
+    "price": 455900,
     "rating": 4.7,
     "image": "https://images.unsplash.com/photo-1517336714739-489689fd1ca8?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 55,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0048",
     "name": "Ordinateur Portable Huawei ProBook 34",
     "category": "Informatique",
-    "price": 410600,
+    "price": 460600,
     "rating": 4.8,
     "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 56,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0049",
     "name": "Ordinateur Portable Toshiba ProBook 37",
     "category": "Informatique",
-    "price": 415300,
+    "price": 465300,
     "rating": 4.2,
     "image": "https://images.unsplash.com/photo-1547082299-de196ea013d6?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 57,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0050",
     "name": "Ordinateur Portable Samsung ProBook 40",
     "category": "Informatique",
-    "price": 420000,
+    "price": 470000,
     "rating": 4.3,
     "image": "https://images.unsplash.com/photo-1484788984921-03950022c9ef?auto=format&fit=crop&w=1200&q=80",
     "description": "Ordinateur portable performant pour travail, etudes et productivite.",
     "stock": 58,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "processeur": "Intel Core i5 / Ryzen 5",
+      "ram": "8 Go",
+      "stockage": "512 Go SSD",
+      "ecran": "15.6 pouces FHD",
+      "batterie": "Jusqu'a 9 heures",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0051",
     "name": "Telephone Samsung Smart 10",
     "category": "Telephonie",
-    "price": 68200,
+    "price": 118200,
     "rating": 4.4,
     "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 59,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0052",
     "name": "Telephone Apple Smart 12",
     "category": "Telephonie",
-    "price": 71400,
+    "price": 121400,
     "rating": 4.5,
     "image": "https://images.unsplash.com/photo-1512499617640-c2f999098c01?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 60,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0053",
     "name": "Telephone Xiaomi Smart 14",
     "category": "Telephonie",
-    "price": 74600,
+    "price": 124600,
     "rating": 4.6,
     "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 61,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0054",
     "name": "Telephone Tecno Smart 16",
     "category": "Telephonie",
-    "price": 77800,
+    "price": 127800,
     "rating": 4.7,
     "image": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 62,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0055",
     "name": "Telephone Infinix Smart 18",
     "category": "Telephonie",
-    "price": 81000,
+    "price": 131000,
     "rating": 4.8,
     "image": "https://images.unsplash.com/photo-1468495244123-6c6c332eeece?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 63,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0056",
     "name": "Telephone Oppo Smart 20",
     "category": "Telephonie",
-    "price": 84200,
+    "price": 134200,
     "rating": 4.2,
     "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 64,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0057",
     "name": "Telephone Vivo Smart 22",
     "category": "Telephonie",
-    "price": 87400,
+    "price": 137400,
     "rating": 4.3,
     "image": "https://images.unsplash.com/photo-1512499617640-c2f999098c01?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 65,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0058",
     "name": "Telephone Google Smart 24",
     "category": "Telephonie",
-    "price": 90600,
+    "price": 140600,
     "rating": 4.4,
     "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 66,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0059",
     "name": "Telephone Nokia Smart 26",
     "category": "Telephonie",
-    "price": 93800,
+    "price": 143800,
     "rating": 4.5,
     "image": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 67,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0060",
     "name": "Telephone Huawei Smart 28",
     "category": "Telephonie",
-    "price": 97000,
+    "price": 147000,
     "rating": 4.6,
     "image": "https://images.unsplash.com/photo-1468495244123-6c6c332eeece?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 8,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0061",
     "name": "Telephone Samsung Smart 30",
     "category": "Telephonie",
-    "price": 100200,
+    "price": 150200,
     "rating": 4.7,
     "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 9,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0062",
     "name": "Telephone Apple Smart 32",
     "category": "Telephonie",
-    "price": 103400,
+    "price": 153400,
     "rating": 4.8,
     "image": "https://images.unsplash.com/photo-1512499617640-c2f999098c01?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 10,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0063",
     "name": "Telephone Xiaomi Smart 9",
     "category": "Telephonie",
-    "price": 106600,
+    "price": 156600,
     "rating": 4.2,
     "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 11,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0064",
     "name": "Telephone Tecno Smart 11",
     "category": "Telephonie",
-    "price": 109800,
+    "price": 159800,
     "rating": 4.3,
     "image": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 12,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0065",
     "name": "Telephone Infinix Smart 13",
     "category": "Telephonie",
-    "price": 113000,
+    "price": 163000,
     "rating": 4.4,
     "image": "https://images.unsplash.com/photo-1468495244123-6c6c332eeece?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 13,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0066",
     "name": "Telephone Oppo Smart 15",
     "category": "Telephonie",
-    "price": 116200,
+    "price": 166200,
     "rating": 4.5,
     "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 14,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0067",
     "name": "Telephone Vivo Smart 17",
     "category": "Telephonie",
-    "price": 119400,
+    "price": 169400,
     "rating": 4.6,
     "image": "https://images.unsplash.com/photo-1512499617640-c2f999098c01?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 15,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0068",
     "name": "Telephone Google Smart 19",
     "category": "Telephonie",
-    "price": 122600,
+    "price": 172600,
     "rating": 4.7,
     "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 16,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0069",
     "name": "Telephone Nokia Smart 21",
     "category": "Telephonie",
-    "price": 125800,
+    "price": 175800,
     "rating": 4.8,
     "image": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 17,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0070",
     "name": "Telephone Huawei Smart 23",
     "category": "Telephonie",
-    "price": 129000,
+    "price": 179000,
     "rating": 4.2,
     "image": "https://images.unsplash.com/photo-1468495244123-6c6c332eeece?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 18,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0071",
     "name": "Telephone Samsung Smart 25",
     "category": "Telephonie",
-    "price": 132200,
+    "price": 182200,
     "rating": 4.3,
     "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 19,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0072",
     "name": "Telephone Apple Smart 27",
     "category": "Telephonie",
-    "price": 135400,
+    "price": 185400,
     "rating": 4.4,
     "image": "https://images.unsplash.com/photo-1512499617640-c2f999098c01?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 20,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0073",
     "name": "Telephone Xiaomi Smart 29",
     "category": "Telephonie",
-    "price": 138600,
+    "price": 188600,
     "rating": 4.5,
     "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 21,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0074",
     "name": "Telephone Tecno Smart 31",
     "category": "Telephonie",
-    "price": 141800,
+    "price": 191800,
     "rating": 4.6,
     "image": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 22,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0075",
     "name": "Telephone Infinix Smart 8",
     "category": "Telephonie",
-    "price": 145000,
+    "price": 195000,
     "rating": 4.7,
     "image": "https://images.unsplash.com/photo-1468495244123-6c6c332eeece?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 23,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0076",
     "name": "Telephone Oppo Smart 10",
     "category": "Telephonie",
-    "price": 148200,
+    "price": 198200,
     "rating": 4.8,
     "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 24,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0077",
     "name": "Telephone Vivo Smart 12",
     "category": "Telephonie",
-    "price": 151400,
+    "price": 201400,
     "rating": 4.2,
     "image": "https://images.unsplash.com/photo-1512499617640-c2f999098c01?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 25,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0078",
     "name": "Telephone Google Smart 14",
     "category": "Telephonie",
-    "price": 154600,
+    "price": 204600,
     "rating": 4.3,
     "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 26,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0079",
     "name": "Telephone Nokia Smart 16",
     "category": "Telephonie",
-    "price": 157800,
+    "price": 207800,
     "rating": 4.4,
     "image": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 27,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0080",
     "name": "Telephone Huawei Smart 18",
     "category": "Telephonie",
-    "price": 161000,
+    "price": 211000,
     "rating": 4.5,
     "image": "https://images.unsplash.com/photo-1468495244123-6c6c332eeece?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 28,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0081",
     "name": "Telephone Samsung Smart 20",
     "category": "Telephonie",
-    "price": 164200,
+    "price": 214200,
     "rating": 4.6,
     "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 29,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0082",
     "name": "Telephone Apple Smart 22",
     "category": "Telephonie",
-    "price": 167400,
+    "price": 217400,
     "rating": 4.7,
     "image": "https://images.unsplash.com/photo-1512499617640-c2f999098c01?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 30,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0083",
     "name": "Telephone Xiaomi Smart 24",
     "category": "Telephonie",
-    "price": 170600,
+    "price": 220600,
     "rating": 4.8,
     "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 31,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0084",
     "name": "Telephone Tecno Smart 26",
     "category": "Telephonie",
-    "price": 173800,
+    "price": 223800,
     "rating": 4.2,
     "image": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 32,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0085",
     "name": "Telephone Infinix Smart 28",
     "category": "Telephonie",
-    "price": 177000,
+    "price": 227000,
     "rating": 4.3,
     "image": "https://images.unsplash.com/photo-1468495244123-6c6c332eeece?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 33,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0086",
     "name": "Telephone Oppo Smart 30",
     "category": "Telephonie",
-    "price": 180200,
+    "price": 230200,
     "rating": 4.4,
     "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 34,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0087",
     "name": "Telephone Vivo Smart 32",
     "category": "Telephonie",
-    "price": 183400,
+    "price": 233400,
     "rating": 4.5,
     "image": "https://images.unsplash.com/photo-1512499617640-c2f999098c01?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 35,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0088",
     "name": "Telephone Google Smart 9",
     "category": "Telephonie",
-    "price": 186600,
+    "price": 236600,
     "rating": 4.6,
     "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 36,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0089",
     "name": "Telephone Nokia Smart 11",
     "category": "Telephonie",
-    "price": 189800,
+    "price": 239800,
     "rating": 4.7,
     "image": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 37,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0090",
     "name": "Telephone Huawei Smart 13",
     "category": "Telephonie",
-    "price": 193000,
+    "price": 243000,
     "rating": 4.8,
     "image": "https://images.unsplash.com/photo-1468495244123-6c6c332eeece?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 38,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0091",
     "name": "Telephone Samsung Smart 15",
     "category": "Telephonie",
-    "price": 196200,
+    "price": 246200,
     "rating": 4.2,
     "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 39,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0092",
     "name": "Telephone Apple Smart 17",
     "category": "Telephonie",
-    "price": 199400,
+    "price": 249400,
     "rating": 4.3,
     "image": "https://images.unsplash.com/photo-1512499617640-c2f999098c01?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 40,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0093",
     "name": "Telephone Xiaomi Smart 19",
     "category": "Telephonie",
-    "price": 202600,
+    "price": 252600,
     "rating": 4.4,
     "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 41,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0094",
     "name": "Telephone Tecno Smart 21",
     "category": "Telephonie",
-    "price": 205800,
+    "price": 255800,
     "rating": 4.5,
     "image": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 42,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0095",
     "name": "Telephone Infinix Smart 23",
     "category": "Telephonie",
-    "price": 209000,
+    "price": 259000,
     "rating": 4.6,
     "image": "https://images.unsplash.com/photo-1468495244123-6c6c332eeece?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 43,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0096",
     "name": "Telephone Oppo Smart 25",
     "category": "Telephonie",
-    "price": 212200,
+    "price": 262200,
     "rating": 4.7,
     "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 44,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0097",
     "name": "Telephone Vivo Smart 27",
     "category": "Telephonie",
-    "price": 215400,
+    "price": 265400,
     "rating": 4.8,
     "image": "https://images.unsplash.com/photo-1512499617640-c2f999098c01?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 45,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0098",
     "name": "Telephone Google Smart 29",
     "category": "Telephonie",
-    "price": 218600,
+    "price": 268600,
     "rating": 4.2,
     "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 46,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0099",
     "name": "Telephone Nokia Smart 31",
     "category": "Telephonie",
-    "price": 221800,
+    "price": 271800,
     "rating": 4.3,
     "image": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 47,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   },
   {
     "id": "prd-0100",
     "name": "Telephone Huawei Smart 8",
     "category": "Telephonie",
-    "price": 225000,
+    "price": 275000,
     "rating": 4.4,
     "image": "https://images.unsplash.com/photo-1468495244123-6c6c332eeece?auto=format&fit=crop&w=1200&q=80",
     "description": "Smartphone moderne avec bonne autonomie et camera de qualite.",
     "stock": 48,
-    "badge": "Top Vente CI"
+    "badge": "Top Vente CI",
+    "specs": {
+      "ecran": "6.6 pouces FHD+",
+      "ram": "8 Go",
+      "stockage": "256 Go",
+      "batterie": "5000 mAh",
+      "camera": "50 MP",
+      "garantie": "12 mois"
+    }
   }
 ]

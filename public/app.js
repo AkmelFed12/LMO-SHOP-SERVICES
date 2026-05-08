@@ -16,7 +16,13 @@ const el = {
   cartTotal: document.getElementById("cartTotal"),
   form: document.getElementById("checkoutForm"),
   feedback: document.getElementById("feedback"),
-  sessionLabel: document.getElementById("sessionLabel")
+  sessionLabel: document.getElementById("sessionLabel"),
+  modal: document.getElementById("productModal"),
+  closeModal: document.getElementById("closeModal"),
+  modalImage: document.getElementById("modalImage"),
+  modalName: document.getElementById("modalName"),
+  modalPrice: document.getElementById("modalPrice"),
+  modalSpecs: document.getElementById("modalSpecs")
 };
 
 if (session && el.sessionLabel) el.sessionLabel.textContent = `${session.username} (${session.id})`;
@@ -24,6 +30,20 @@ if (session && el.sessionLabel) el.sessionLabel.textContent = `${session.usernam
 const money = (n) => `${Math.round(n).toLocaleString("fr-FR")} FCFA`;
 const persistCart = () => localStorage.setItem("cart_demo", JSON.stringify(state.cart));
 const getTotal = () => state.cart.reduce((sum, item) => sum + item.price * item.qty, 0);
+
+function openProductModal(product) {
+  el.modalImage.src = product.image;
+  el.modalImage.alt = product.name;
+  el.modalName.textContent = product.name;
+  el.modalPrice.textContent = money(product.price);
+  const specs = product.specs || {};
+  el.modalSpecs.innerHTML = Object.entries(specs).map(([k, v]) => `<div class="spec-row"><strong>${k}</strong><span>${v}</span></div>`).join("");
+  el.modal.hidden = false;
+}
+
+function closeProductModal() {
+  el.modal.hidden = true;
+}
 
 function renderCart() {
   el.cartItems.innerHTML = state.cart.length ? state.cart.map((item) => `
@@ -45,7 +65,7 @@ function renderProducts(list) {
   el.stats.textContent = `${list.length} produit(s) disponible(s)`;
   el.products.innerHTML = list.map((product) => `
     <article class="product-card">
-      <img src="${product.image}" alt="${product.name}" loading="lazy" />
+      <button class="image-btn" data-open="${product.id}" type="button"><img src="${product.image}" alt="${product.name}" loading="lazy" /></button>
       <div class="product-body">
         <span class="badge">${product.badge}</span>
         <strong>${product.name}</strong>
@@ -67,6 +87,11 @@ function renderProducts(list) {
     else state.cart.push({ id: found.id, name: found.name, price: found.price, qty: 1 });
     persistCart();
     renderCart();
+  });
+
+  document.querySelectorAll("[data-open]").forEach((btn) => btn.onclick = () => {
+    const product = list.find((item) => item.id === btn.dataset.open);
+    if (product) openProductModal(product);
   });
 }
 
@@ -122,6 +147,15 @@ el.form.addEventListener("submit", async (event) => {
   renderCart();
   el.form.reset();
   el.feedback.innerHTML = `<div class="notice ok">${data.message}<br>Reference: ${data.orderId}</div>`;
+});
+
+el.closeModal?.addEventListener("click", closeProductModal);
+el.modal?.addEventListener("click", (event) => {
+  if (event.target === el.modal) closeProductModal();
+});
+
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && el.modal && !el.modal.hidden) closeProductModal();
 });
 
 fetchProducts();
